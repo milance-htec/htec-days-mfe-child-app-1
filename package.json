@@ -1,5 +1,5 @@
 {
-  "name": "@mnm-tech/child-app-1",
+  "name": "aaa-accounts-web-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,25 +9,52 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@mnm-tech/react-scripts": "^1.0.1",
-    "@mnm-tech/provider": "1.0.0",
+    "@apollo/react-hooks": "^4.0.0",
+    "@date-io/moment": "^1.3.13",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "^3.2.10",
+    "@optimizely/react-sdk": "^2.4.0",
+    "apollo-boost": "^0.4.9",
     "classnames": "^2.2.6",
+    "formik": "^2.2.5",
+    "graphql": "^15.4.0",
     "lodash": "^4.17.20",
+    "moment": "^2.29.1",
     "react": "^16.13.1",
     "react-app-polyfill": "^2.0.0",
     "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-masonry-css": "^1.0.14",
     "react-router-dom": "^5.2.0",
-    "reset-css": "^5.0.1"
+    "react-test-renderer": "^16.13.1",
+    "react-toastify": "^6.1.0",
+    "reset-css": "^5.0.1",
+    "use-debounce": "^5.1.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.1",
+    "@testing-library/user-event": "^12.2.2",
     "@types/classnames": "^2.2.11",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.165",
+    "@types/moment": "^2.13.0",
     "@types/node": "^14.14.9",
     "@types/react": "^16.9.56",
     "@types/react-dom": "^16.9.9",
+    "@types/react-google-recaptcha": "^2.1.0",
     "@types/react-router-dom": "^5.1.6",
     "cross-env": "^7.0.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
     "husky": "^4.3.0",
     "jest-dom": "^4.0.0",
+    "jest-sonar-reporter": "^2.0.0",
     "lint-staged": "^10.5.1",
     "node-sass": "^5.0.0",
     "prettier": "^2.2.0",
@@ -65,17 +92,20 @@
     "indent": 4
   },
   "federation": {
-    "name": "mnmMfeChildApp1",
+    "name": "identityAccessMfe",
     "library": {
       "type": "var",
-      "name": "mnmMfeChildApp1"
+      "name": "identityAccessMfe"
     },
     "filename": "static/js/remoteEntry.js",
     "exposes": {
       "./App": "./src/App"
     },
     "shared": {
-      "@mnm-tech/provider": "1.0.0",
+      "@material-ui/core": "^4.11.0",
+      "@material-ui/icons": "^4.9.1",
+      "@reef-tech/reef-cloud-auth": "^1.6.2",
+      "@optimizely/react-sdk": "^2.4.0",
       "react": {
         "singleton": true,
         "requiredVersion": "^16.13.1"

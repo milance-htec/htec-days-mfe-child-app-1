@@ -1,0 +1,13 @@
+@import 'src/styles/settings/variables';
+
+.message-box {
+  border-radius: 4px;
+  font-size: $fontSize2;
+  padding: 0.9375rem 1.0625rem;
+}
+
+.message-box--info {
+  background-color: rgba(224, 228, 236, 0.3);
+  border: 1px solid rgba(0, 30, 97, 0.2);
+  color: $colorBlue;
+}

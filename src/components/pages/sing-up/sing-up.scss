@@ -1,0 +1,40 @@
+@import 'src/styles/settings/variables';
+
+.sign-up-page {
+  background: url(~assets/images/sign-in-illustration.svg) $colorWhite center bottom no-repeat;
+}
+
+.sign-up-page__logo {
+  margin: 2rem 0;
+  width: 10rem;
+}
+
+.sign-up-page__heading {
+  color: $colorGrey1;
+  font-size: $fontSize4;
+}
+
+.sign-up-page-type-switcher {
+  margin-top: 2.875rem;
+}
+
+.sign-up-page-type-switcher__link {
+  font-size: $fontSize2;
+}
+
+.sign-up-page-form__terms-text {
+  color: $colorGrey1;
+  font-size: $fontSize1;
+  line-height: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sign-up-page-form__go-to-login {
+  color: $colorGrey1;
+  font-size: $fontSize2;
+  margin-top: 2rem;
+}
+
+.sign-up-page__window-content-wrapper {
+  margin-bottom: 6.25rem;
+}

@@ -1,0 +1,30 @@
+@import 'src/styles/settings/variables';
+
+.cards-input__input {
+  padding: 0.25rem 0.25rem 0.25rem 0;
+  border-bottom: 1px solid rgb(170, 170, 170);
+  min-width: 5rem;
+  outline: none;
+}
+
+.cards-input__label-title {
+  font-size: $fontSize1;
+  color: #5887da;
+  margin-bottom: 0.625rem;
+  transform: translate(0rem);
+  transition-duration: 400ms;
+
+  &--hide-placeholder {
+    margin-bottom: -2rem;
+    display: none;
+    transition-duration: 100ms;
+  }
+}
+
+.cards-input__input--blur {
+  color: #aaa;
+}
+
+.cards-input__cards {
+  width: 32.875rem;
+}

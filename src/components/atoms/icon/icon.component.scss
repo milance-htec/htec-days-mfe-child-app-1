@@ -1,0 +1,12 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon--clickable {
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.accordion {
+  border: 1px solid $colorGrey3;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.accordion__content {
+  border-bottom: 1px solid $colorGrey3;
+}
+
+.accordion__content--data {
+  width: 100%;
+}
+
+.accordion__expandible {
+  min-height: 0px;
+  height: 0px;
+  transition-duration: 222ms;
+  display: none;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  width: 100%;
+
+  &--expanded {
+    height: auto;
+    overflow: visible;
+    display: unset;
+    border-bottom: 1px solid $colorGrey3;
+  }
+}
+
+.accordion__content--icon {
+  margin: 0px 0rem 0px 1rem;
+}

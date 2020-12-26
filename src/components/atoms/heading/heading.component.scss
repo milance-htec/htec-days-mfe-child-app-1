@@ -1,0 +1,42 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.heading {
+  font-weight: 500;
+}
+
+.heading--1 {
+  font-size: $fontSize6;
+}
+
+.heading--2 {
+  font-size: 1.5rem;
+}
+
+.heading--3 {
+  font-size: 1.4rem;
+}
+
+.heading--4 {
+  font-size: 1.3rem;
+}
+
+.heading--5 {
+  font-size: 1.2rem;
+}
+
+.heading--6 {
+  font-size: 1.1rem;
+}
+
+.heading--blue {
+  color: $colorBlue;
+}
+
+.heading--white {
+  color: white;
+}
+
+.heading--bottom-spacing {
+  margin-bottom: 1.25rem;
+}

@@ -1,0 +1,63 @@
+@import 'src/styles/settings/variables';
+
+.organizations__page-header .heading {
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+.organizations__page-header--wrapper {
+  width: 100%;
+}
+
+.organizations__page-header--create-new-button {
+  align-self: flex-end;
+  margin-top: 1rem;
+  min-height: 3.5rem;
+}
+
+.organizations__page-header--search-wrapper {
+  margin-left: -9.15rem;
+}
+
+.organizations-page-content {
+  margin-top: 5.7125rem;
+}
+
+.organizations-list__loading-point {
+  margin-top: 1.5rem;
+}
+
+.organization-logo {
+  height: 1.875rem;
+  margin-right: 1rem;
+}
+
+.organization-avatar,
+.expanding-row-paragraph,
+.expanding-row-paragraph--no-modules {
+  margin-right: 1rem;
+}
+
+.expanding-row-paragraph--no-modules {
+  margin-bottom: 0.5rem;
+}
+
+.organizations-table {
+  th,
+  td {
+    width: 9.375rem;
+    height: 3.625rem;
+
+    &:first-child {
+      width: 37.25rem;
+    }
+
+    &:last-child {
+      width: 3rem;
+    }
+  }
+}
+
+.organization-table__assign-modules-column {
+  width: 21.5rem;
+}

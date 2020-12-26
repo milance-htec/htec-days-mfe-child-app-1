@@ -1,0 +1,12 @@
+.page-content {
+  flex: 1;
+  overflow: hidden;
+}
+
+.page-content--padding {
+  padding: 1rem 1.5rem;
+}
+
+.page-content--scrollable {
+  overflow-y: auto;
+}

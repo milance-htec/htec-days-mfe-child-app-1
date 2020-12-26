@@ -1,0 +1,16 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page__page-content {
+  flex-grow: 1;
+}
+
+.home-page-tile {
+  min-width: 24%;
+  margin-right: 1%;
+}

@@ -1,0 +1,13 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+input[type='radio'] {
+  margin: 0;
+  margin-right: 0.625rem;
+  cursor: pointer;
+
+  &:disabled,
+  &:checked {
+    cursor: default;
+  }
+}

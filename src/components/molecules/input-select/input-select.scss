@@ -1,0 +1,66 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.input-select {
+  background-color: $colorWhite;
+  z-index: 10;
+}
+
+.input-field {
+  display: flex;
+  input {
+    margin-bottom: 0 !important;
+  }
+}
+
+.input__label-title {
+  font-size: $fontSize1;
+  margin-bottom: 0.5625rem;
+  height: 0.75rem;
+}
+
+.select-options {
+  position: absolute;
+  background-color: $colorWhite;
+  width: 33.125rem;
+  max-height: 16rem;
+  overflow: auto;
+  box-shadow: 0 0 0.625rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.option {
+  height: 3.25rem;
+  padding: 1.25rem;
+  border-bottom: 1px solid $colorBorderGrey;
+  cursor: pointer;
+
+  @include disable-select();
+}
+
+.input-field__fillin-input-placeholder {
+  border-bottom: 1px solid rgb(26, 35, 126);
+  color: $colorGrayLight;
+  cursor: pointer;
+  font-size: $fontSize3;
+  height: 2rem;
+}
+
+.input-field__fillin-input-placeholder--with-value {
+  color: #000;
+}
+
+.dropdown-icon {
+  border-bottom: 1px solid $colorInputDefault;
+  &--has-value {
+    color: #5887da;
+    border-color: $colorInputHasValue;
+  }
+}
+
+.dropdown-clear-value-icon {
+  border-bottom: 1px solid $colorInputDefault;
+}
+
+.input-select-option-list {
+  z-index: 1;
+}

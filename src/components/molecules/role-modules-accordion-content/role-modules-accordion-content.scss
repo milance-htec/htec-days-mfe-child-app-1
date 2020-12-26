@@ -1,0 +1,49 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.role-modules-accordion-content__data--name {
+  // min-width: 40%;
+  // max-width: 40%;
+  text-align: left;
+  flex: 1;
+}
+
+.role-modules-accordion-content__data--status {
+  // min-width: 20%;
+  // max-width: 20%;
+  color: $colorGrey1;
+}
+
+.role-modules-accordion-content__data--no-access {
+  // min-width: 15%;
+  // max-width: 15%;
+  padding-left: 6.5rem;
+  padding-right: 2rem;
+}
+
+.role-modules-accordion-content__data--viewer,
+.role-modules-accordion-content__data--owner {
+  // min-width: 10%;
+  // max-width: 10%;
+  padding-left: 4rem;
+}
+
+.role-modules-accordion-content__data--owner {
+  margin-right: 4rem;
+}
+
+.module-avatar--primary {
+  background-color: $colorPrimary !important;
+}
+
+.module-avatar--united-nations {
+  background-color: $colorUnitedNations !important;
+}
+
+.module-avatar--info {
+  background-color: $colorInfo !important;
+}
+
+.module-avatar--success {
+  background-color: $colorSuccess !important;
+}

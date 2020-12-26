@@ -1,0 +1,11 @@
+@import 'src/styles/settings/variables';
+
+.user-profile-tab-section:not(:last-of-type) {
+  margin-bottom: 2.5rem;
+}
+
+.user-profile-tab-section__heading {
+  color: $colorGrey1;
+  font-size: $fontSize4;
+  margin-bottom: 1.5rem;
+}

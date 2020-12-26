@@ -1,0 +1,63 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.paragraph {
+  color: #363435;
+  line-height: 1.5rem;
+}
+
+.paragraph--1 {
+  font-size: 0.9rem;
+}
+
+.paragraph--2 {
+  font-size: $fontSize3;
+}
+
+.paragraph--3 {
+  font-size: 1.2rem;
+}
+
+.paragraph--4 {
+  font-size: 1.4rem;
+}
+
+.paragraph--5 {
+  font-size: 1.6rem;
+}
+
+.paragraph--pink {
+  color: $colorPink;
+}
+
+.paragraph--grey1 {
+  color: $colorGrey1;
+}
+
+.paragraph--blue {
+  color: $colorBlue;
+}
+
+.paragraph--link-blue {
+  color: $colorLinkBlue;
+}
+
+.paragraph--center {
+  text-align: center;
+}
+
+.paragraph--left {
+  text-align: left;
+}
+
+.paragraph--right {
+  text-align: right;
+}
+
+.paragraph--justified {
+  text-align: justified;
+}
+
+.paragraph--bottom-spacing {
+  margin-bottom: 1.25rem;
+}

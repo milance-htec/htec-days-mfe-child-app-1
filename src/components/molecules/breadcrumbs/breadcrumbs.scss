@@ -1,0 +1,20 @@
+@import 'src/styles/settings/variables';
+
+.breadcrumbs__crumb {
+  font-size: $fontSize1;
+  color: $colorGrey1;
+  font-weight: 400;
+
+  &:last-child {
+    color: $colorBlue;
+    font-weight: bold;
+  }
+}
+
+.breadcrumbs__crumb--clickable {
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

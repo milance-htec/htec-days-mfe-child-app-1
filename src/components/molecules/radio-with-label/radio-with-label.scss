@@ -1,0 +1,23 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.radio-with-label {
+  display: block;
+  color: $colorGrayLight;
+  cursor: pointer;
+
+  span {
+    color: inherit;
+  }
+
+  input[type='radio']:disabled {
+    + span {
+      opacity: 0.5;
+    }
+  }
+
+  &.is-disabled,
+  &.is-checked {
+    cursor: default;
+  }
+}

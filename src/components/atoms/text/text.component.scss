@@ -1,0 +1,37 @@
+@import 'src/styles/settings/variables';
+
+.text {
+  font-weight: 400;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.text--underline {
+  text-decoration: underline;
+}
+
+.text--cursor-pointer {
+  cursor: pointer;
+}
+
+.text-color--normal {
+  color: $colorBlack;
+}
+
+.text-color--secondary1 {
+  color: $colorGrey1;
+}
+
+.text-color--secondary2 {
+  color: $colorGrey2;
+}
+
+.text-color--link {
+  color: $colorLinkBlue;
+}
+
+.text-color--primary {
+  color: $colorBlue;
+}

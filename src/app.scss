@@ -1,0 +1,49 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+@import 'styles/base/fonts';
+
+.app.identity-access {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  background: #f6f7f8;
+
+  font-family: $baseFontFamily;
+  color: $colorBlack;
+  font-weight: 400;
+
+  .app__body {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+  }
+
+  .router-content {
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Toastify container */
+  .Toastify__toast-container {
+    top: 5.25rem !important;
+    right: 1.5rem !important;
+  }
+
+  .toastify-custom-close-icon {
+    margin-right: 0.5rem;
+  }
+
+  menu,
+  ol,
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

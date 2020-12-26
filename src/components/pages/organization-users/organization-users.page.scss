@@ -1,0 +1,120 @@
+@import 'src/styles/settings/variables';
+
+.organization-users__page-header .heading {
+  align-self: flex-start;
+}
+
+.users-table-placeholder {
+  padding-top: 10%;
+  height: 80%;
+}
+
+.users-table-placeholder_text {
+  text-align: center;
+}
+
+.users-table-placeholder_heading {
+  margin-bottom: 10%;
+  color: $colorBlue;
+}
+
+.organization-users__page-header--wrapper {
+  width: 100%;
+}
+
+.organization-users__page-header--invite-new-button {
+  min-height: 2.25rem;
+  align-self: flex-end;
+}
+
+.users-search {
+  height: 1.6rem;
+}
+
+.organization-users__search-type-dropdown {
+  min-width: 10.25rem !important;
+  margin-right: 12px !important;
+  margin-top: 3px !important;
+}
+
+.organization-users__page-header--date-range-filter {
+  height: 1.1rem;
+}
+
+.organization-users-page-content {
+  margin-top: 1.4125rem;
+}
+
+.user-info--name {
+  padding-left: 1rem;
+}
+
+.action-link {
+  font-size: $fontSize2;
+}
+
+.organization-users-info-action-icon {
+  color: #999;
+}
+
+.organization-users-list-action-icon {
+  color: #999;
+  margin: 0 $spacingSideSize;
+}
+
+.no-margins {
+  margin-bottom: 0px !important;
+}
+
+.role-label-first {
+  background-color: $label-card-first;
+}
+
+.role-label-second {
+  background-color: $label-card-second;
+}
+
+.organization-user-row__option-column {
+  width: 5rem !important;
+}
+
+.organization-user-row__data-access-dropdown-item:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.organization-user-row__data-access-dropdown-count {
+  margin-top: 0.5rem;
+  white-space: nowrap;
+}
+
+.data-access-level {
+  padding-right: 0.625rem;
+}
+
+.organization-users-table {
+  th,
+  td {
+    height: 3.125rem;
+
+    &:first-child {
+      width: 25rem;
+    }
+
+    &:last-child {
+      text-align: end;
+      width: 3rem;
+    }
+  }
+}
+
+.user-status-wrapper {
+  width: 7rem;
+}
+
+.organization-users__email-column-cell {
+  padding-right: 1.25rem;
+}
+
+.organization-users__roles-column-cell {
+  padding-right: 1.25rem;
+}

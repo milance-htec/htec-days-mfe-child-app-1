@@ -1,0 +1,32 @@
+.confirm-invite-organization-users-modal-content {
+  width: 29.75rem;
+}
+
+.confirm-invite-organization-users-modal__image {
+  background: url(~assets/images/confirm-invite-organization-users-modal.svg);
+  background-size: contain;
+  height: 189px;
+  width: 179px;
+  margin-bottom: 1.5625rem;
+}
+
+.confirm-invite-organization-users-modal__heading {
+  margin-bottom: 2rem;
+}
+
+.confirm-invite-organization-users-paragraph {
+  margin-bottom: 6.25rem;
+  text-align: center;
+  word-break: break-word;
+}
+
+.confirm-invite-organization-users-check-icon {
+  display: inline-block;
+  position: relative;
+  top: 0.375rem;
+  color: #45c2b1;
+}
+
+.confirm-invite-organization-users-paragraph--users {
+  font-weight: bold;
+}

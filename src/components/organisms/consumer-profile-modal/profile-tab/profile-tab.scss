@@ -1,0 +1,33 @@
+@import 'src/styles/settings/variables';
+
+.profile-tab__profile-picture {
+  width: 98px;
+  height: 98px;
+  font-size: 38px;
+}
+
+.contact-information__warning {
+  background-color: rgba(224, 228, 236, 0.3) !important;
+  border-color: rgba(0, 30, 97, 0.2) !important;
+  width: 100%;
+}
+
+.contact-information__warning--content {
+  width: 95%;
+  margin: auto;
+}
+
+.contact-information__warning--title {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.contact-information__warning--text {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.form-actions {
+  padding-bottom: 2.5rem;
+  width: 50%;
+}

@@ -1,0 +1,94 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.manage-modules-modal .modal__content {
+  width: 60rem;
+}
+
+.manage-modules-modal .modal__inner {
+  height: 38.875rem;
+  padding: 0;
+}
+
+.module-avatar-name {
+  padding-left: 1.4rem;
+}
+
+.manage_modal__accordion-content-container:last-child {
+  border: 0;
+}
+
+.manage_modal__accordion-container {
+  width: 100%;
+  font-size: $fontSize2;
+  text-align: center;
+}
+
+.manage_modal__accordion-container:last-child {
+  border: none;
+}
+
+.manage_modal__accordion-content {
+  height: 3rem;
+}
+
+.manage_modal__accordion-expandible {
+  margin-left: 3.5rem;
+}
+
+.manage_modal__accordion-header {
+  top: 0;
+  height: 4rem;
+  color: $colorGrey1;
+  font-weight: bold;
+  position: sticky;
+  background-color: white;
+  border-top: 1px solid $colorGrey2;
+}
+
+.manage_modal__classic-row {
+  width: 100%;
+  padding-left: 2.5rem;
+  height: 3rem;
+}
+
+.manage_modal__accordion-header,
+.manage_modal__classic-row {
+  border-left: 1px solid $colorGrey3;
+  border-right: 1px solid $colorGrey3;
+  border-bottom: 1px solid $colorGrey3;
+  text-align: center;
+  font-size: $fontSize2;
+}
+
+.manage_modal__accordion-header--name {
+  min-width: 40%;
+  max-width: 40%;
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.manage_modal__accordion-header--status {
+  min-width: 19%;
+  max-width: 19%;
+  padding-left: 2%;
+}
+
+.manage_modal__accordion-header--no-access {
+  min-width: 15%;
+  max-width: 15%;
+}
+
+.manage_modal__accordion-header--viewer,
+.manage_modal__accordion-header--owner {
+  min-width: 10%;
+  max-width: 10%;
+}
+
+.manage_modal__classic-row--submodule:last-child {
+  border: 0;
+}
+
+.manage_modal__accordion-container--expandible:last-child {
+  border: 0;
+}

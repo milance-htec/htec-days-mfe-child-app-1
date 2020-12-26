@@ -1,0 +1,16 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.link {
+  color: $colorLinkBlue;
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    text-decoration: underline inherit;
+  }
+}
+
+.link--bold {
+  font-weight: bold;
+}

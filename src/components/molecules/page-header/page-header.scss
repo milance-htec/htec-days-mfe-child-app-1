@@ -1,0 +1,16 @@
+@import 'src/styles/settings/variables';
+
+.page-header {
+  min-height: 6rem;
+  max-height: 6rem;
+  padding: 0 1.5rem;
+}
+
+.page-header__title {
+  color: $colorBlue;
+}
+
+.page-header__breadcrumbs-container {
+  margin-right: 0.25rem;
+  padding: 1rem 0px;
+}

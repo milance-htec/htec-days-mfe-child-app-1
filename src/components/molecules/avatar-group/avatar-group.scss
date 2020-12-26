@@ -1,0 +1,10 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.avatar-group__avatar {
+  position: relative;
+}
+
+.avatar-group--single {
+  margin-right: 1rem;
+}

@@ -1,0 +1,21 @@
+@import 'src/styles/settings/variables';
+
+.toast-message-content {
+  padding-left: 1.25rem;
+}
+
+.toast-message-content__icon {
+  margin-right: 1rem;
+}
+
+.toast-message-content__message {
+  color: $colorGrey1;
+}
+
+.toast-message-content__icon--success {
+  color: #45c2b1;
+}
+
+.toast-message-content__icon--error {
+  color: $colorErrorRed;
+}

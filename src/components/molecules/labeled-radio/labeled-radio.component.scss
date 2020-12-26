@@ -1,0 +1,10 @@
+@import 'src/styles/settings/variables';
+@import 'src/styles/tools/mixins';
+
+.labeled-radio--right-margin {
+  margin-right: 1rem !important;
+}
+
+.labeled-radio--left-margin {
+  margin-left: 1rem !important;
+}

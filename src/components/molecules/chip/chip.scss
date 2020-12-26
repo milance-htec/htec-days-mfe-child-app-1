@@ -1,0 +1,68 @@
+@import 'src/styles/settings/variables';
+
+$sideSpacing: 0.5rem;
+
+.chip {
+  border-radius: 12px;
+  border: 1px solid transparent;
+  color: $colorWhite;
+  font-size: $fontSize1;
+  min-height: 1.5rem;
+  padding: 0.25rem $sideSpacing;
+}
+
+.chip--left-spacing {
+  margin-left: $sideSpacing;
+}
+
+.chip--right-spacing {
+  margin-right: $sideSpacing;
+}
+
+.chip--top-spacing {
+  margin-top: $sideSpacing;
+}
+
+.chip--bottom-spacing {
+  margin-bottom: $sideSpacing;
+}
+
+.chip--light-blue {
+  background-color: $colorLinkBlue;
+}
+
+.chip--blue-fine {
+  background-color: $colorBlueFine;
+}
+
+.chip--purple-light {
+  background-color: $colorPurpleLight;
+}
+
+.chip--blue {
+  background-color: $colorBlue;
+}
+
+.chip--light-green {
+  background-color: $colorGreen2;
+}
+
+.chip--darker-grey {
+  background-color: $colorGrey5;
+}
+
+.chip--transparent-grey {
+  background-color: $colorGrey6;
+}
+
+.chip--light-gray {
+  background-color: $colorGrey2;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.chip--error {
+  background-color: $colorWhite;
+  border: 1px solid $colorErrorRed;
+  color: $colorErrorRed;
+}

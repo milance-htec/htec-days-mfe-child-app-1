@@ -1,0 +1,32 @@
+@import 'src/styles/settings/variables';
+
+.invite-organization-users-modal__cards-input {
+  margin-bottom: 1.875rem;
+}
+
+.cards-input__card-email {
+  margin-right: 0.3125rem;
+}
+
+.invite-organization-users__modal-legend-item {
+  margin-right: 1.5rem;
+  white-space: nowrap;
+}
+
+.invite-organization-users__modal-legend-new-users {
+  color: $colorGrey3;
+  margin-right: 0.3125rem;
+}
+
+.invite-organization-users__modal-legend-active-users {
+  color: $colorBlue;
+  margin-right: 0.3125rem;
+}
+
+.invite-organization-users-modal__info-box {
+  margin-top: 3.125rem;
+}
+
+#organization-users-page-invite-organization-users-modal-invite-users-button {
+  position: inherit;
+}

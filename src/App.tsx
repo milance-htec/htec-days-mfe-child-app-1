@@ -1,24 +1,41 @@
 import React, { useEffect, useState } from 'react';
 import { useMnM } from '@mnm-tech/provider';
 
+import Input from './components/input.component';
+import Button from './components/button.component';
+
 import 'App.scss';
 
 function App() {
-  const { itemList } = useMnM();
+  const { itemList, setItemList } = useMnM();
 
-  const [receivedNumber, setReceivedNumber] = useState(-1);
-
-  useEffect(() => {
-    if (itemList.length) {
-      setReceivedNumber(itemList[0]);
-    }
-  }, [itemList]);
+  const [inputValue, setInputValue] = useState('');
 
   return (
     <>
       <span className="mfe-child-app-1__heading">Child App #1</span>
-      <div className="mfe-child-app-1">
-        <div>{`Received item is: ${receivedNumber}`}</div>
+      <div>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
+        >
+          <Input
+            value={inputValue}
+            onChange={(e) => {
+              setInputValue(e.target.value);
+            }}
+          />
+          <Button
+            type="submit"
+            onClick={() => {
+              setItemList([...itemList, inputValue]);
+              setInputValue('');
+            }}
+          >
+            Add item
+          </Button>
+        </form>
       </div>
     </>
   );

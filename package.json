@@ -110,7 +110,8 @@
         "singleton": true,
         "requiredVersion": "^16.13.1"
       },
-      "react-router-dom": "^5.2.0"
+      "react-router-dom": "^5.2.0",
+      "@mnm-tech/provider": "^1.0.0"
     }
   }
 }

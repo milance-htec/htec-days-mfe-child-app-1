@@ -1,1 +1,1 @@
-/// <reference types="@reef-tech/react-scripts" />
+/// <reference types="@mnm-tech/react-scripts" />

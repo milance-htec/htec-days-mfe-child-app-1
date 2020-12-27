@@ -1,5 +1,5 @@
 {
-  "name": "aaa-accounts-web-app",
+  "name": "@mnm-tech/child-app-1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -92,20 +92,16 @@
     "indent": 4
   },
   "federation": {
-    "name": "identityAccessMfe",
+    "name": "mnmMfeChildApp1",
     "library": {
       "type": "var",
-      "name": "identityAccessMfe"
+      "name": "mnmMfeChildApp1"
     },
     "filename": "static/js/remoteEntry.js",
     "exposes": {
       "./App": "./src/App"
     },
     "shared": {
-      "@material-ui/core": "^4.11.0",
-      "@material-ui/icons": "^4.9.1",
-      "@reef-tech/reef-cloud-auth": "^1.6.2",
-      "@optimizely/react-sdk": "^2.4.0",
       "react": {
         "singleton": true,
         "requiredVersion": "^16.13.1"

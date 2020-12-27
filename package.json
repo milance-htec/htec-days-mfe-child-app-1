@@ -99,7 +99,12 @@
     },
     "filename": "static/js/remoteEntry.js",
     "exposes": {
-      "./App": "./src/App"
+      "./App": "./src/App",
+      "./components/Input": "./src/components/input.component",
+      "./components/Button": "./src/components/button.component"
+    },
+    "remotes": {
+      "mnmMfeChildApp2": "mnmMfeChildApp2"
     },
     "shared": {
       "react": {

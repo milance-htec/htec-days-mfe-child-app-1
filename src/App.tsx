@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useMnM } from '@mnm-tech/provider';
 
+import 'App.scss';
+
 function App() {
   const { itemList } = useMnM();
 
@@ -12,7 +14,14 @@ function App() {
     }
   }, [itemList]);
 
-  return <div>{`Received item is: ${receivedNumber}`}</div>;
+  return (
+    <>
+      <span className="mfe-child-app-1__heading">Child App #1</span>
+      <div className="mfe-child-app-1">
+        <div>{`Received item is: ${receivedNumber}`}</div>
+      </div>
+    </>
+  );
 }
 
 export default App;

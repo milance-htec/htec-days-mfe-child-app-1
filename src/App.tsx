@@ -16,6 +16,7 @@ function App() {
       <span className="mfe-child-app-1__heading">Child App #1</span>
       <div>
         <form
+          className="mfe-child-app-1__form"
           onSubmit={(e) => {
             e.preventDefault();
           }}
